@@ -1,3 +1,8 @@
+/* 
+  Root styles: 
+  - Set default font family, line height, font weight, and color scheme.
+  - Improve font rendering and background color for the whole app.
+*/
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -12,29 +17,48 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* 
+  Body styles:
+  - Remove default margin.
+  - Set minimum width and height for responsiveness.
+*/
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
 }
 
+/* 
+  Heading styles:
+  - Style the main heading for better appearance.
+*/
 h1 {
   font-size: 2.2em;
   line-height: 1.1;
 }
 
+/* 
+  App container styles:
+  - Center the app and set its width.
+*/
 #app {
   width: 100%;
   margin: 0 auto;
 }
 
-/* Focus styles for accessibility */
+/* 
+  Accessibility: 
+  - Add a visible outline for focused elements.
+*/
 :focus {
   outline: 2px solid #4caf50;
   outline-offset: 2px;
 }
 
-/* Custom scrollbar */
+/* 
+  Custom scrollbar styles:
+  - Style the scrollbar for a modern look.
+*/
 ::-webkit-scrollbar {
   width: 8px;
 }
